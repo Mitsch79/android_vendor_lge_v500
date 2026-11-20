@@ -4,6 +4,8 @@ This project prepares the V500-specific Mesa 23.2.1 build for LineageOS 21. It v
 
 The tablet portrait resource overlay aligns SetupDesign's header and content margins with the Lineage setup resources. On first boot, V500NavigationDefaults selects the standard navigation bar when the user has no saved taskbar preference. The user can subsequently enable the tablet taskbar in Settings.
 
+The V500 sysconfig skips the setup activities for a missing SIM, biometric enrollment and TV input pairing. The wizard still offers screen lock, language, appearance and navigation choices.
+
 From an Android source tree populated with the [V500 manifest](https://github.com/Mitsch79/android_local_manifests_v500/tree/lineage-21.0), run:
 
 ```sh

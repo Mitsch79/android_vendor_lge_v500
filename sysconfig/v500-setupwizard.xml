@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <!-- Wi-Fi tablet with built-in touch input, without telephony or biometric enrollment. -->
+    <component-override package="org.lineageos.setupwizard">
+        <component class=".BluetoothSetupActivity" enabled="false" />
+        <component class=".SimMissingActivity" enabled="false" />
+        <component class=".BiometricActivity" enabled="false" />
+    </component-override>
+</config>
