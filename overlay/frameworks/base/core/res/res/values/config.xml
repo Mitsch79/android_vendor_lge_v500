@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Back, Home and Recents are on screen on the Wi-Fi LG G Pad 8.3. -->
+    <bool name="config_showNavigationBar">true</bool>
+</resources>
