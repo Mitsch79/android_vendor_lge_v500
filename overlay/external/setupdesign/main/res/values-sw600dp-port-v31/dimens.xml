@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- LayoutStyler subtracts these theme margins from the partner margins.
+         Keep them equal on V500 tablets so nested headers stay on screen. -->
+    <dimen name="sud_glif_margin_start">40dp</dimen>
+    <dimen name="sud_glif_margin_end">24dp</dimen>
+    <dimen name="sud_glif_margin_start_material_you">40dp</dimen>
+    <dimen name="sud_glif_margin_end_material_you">24dp</dimen>
+</resources>

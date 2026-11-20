@@ -1,0 +1,7 @@
+android_app {
+    name: "V500NavigationDefaults",
+    vendor: true,
+    sdk_version: "current",
+    srcs: ["src/**/*.java"],
+    resource_dirs: [],
+}
