@@ -1,0 +1,8 @@
+cc_library_shared {
+    name: "lights.v500",
+    vendor: true,
+    relative_install_path: "hw",
+    srcs: ["lights.c"],
+    header_libs: ["libhardware_headers"],
+    cflags: ["-Wall", "-Werror"],
+}

@@ -1,0 +1,1 @@
+genfscon sysfs /devices/platform/panel-backlight/backlight/panel-backlight u:object_r:sysfs_leds:s0
